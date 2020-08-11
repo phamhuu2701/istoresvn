@@ -1,0 +1,20 @@
+{
+    "localhost": "https://localhost:3000",
+    "domainFree": "https://istores.herokuapp.com",
+    "domainName": "iStore",
+    "localMongoDBUri": "mongodb://localhost:27017/istore",
+    "mongoDBUri": "mongodb+srv://mongdbatlatadmin:@mongdbatlatadmin@cluster0-g2e3x.mongodb.net/dbistore?retryWrites=true&w=majority",
+    "mail": {
+        "user": "istore.vn2020@gmail.com",
+        "pass": "@Istore.vn2019"
+    },
+    "cloudinary": {
+        "user": "istore.vn2019@gmail.com",
+        "pass": "@Istore.vn2019"
+    },
+    "mongodbAtlas": {
+        "user": "istore.vn2019@gmail.com",
+        "pass": "@Mongodbatlat",
+        "phone": "0906393657"
+    }
+}

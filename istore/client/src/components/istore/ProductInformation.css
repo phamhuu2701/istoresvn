@@ -1,0 +1,66 @@
+.store-info {
+    height: 85%;
+    width: 65%;
+    top: 15%;
+    z-index: 120;
+    position: fixed;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 768px) {
+    .store-info {
+        height: 65%;
+        width: 100%;
+        top: 100%;
+        right: 0;
+    }
+
+    .hide {
+    }
+
+    .show {
+        top: 35%;
+        right: 0;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .store-info {
+        height: 85%;
+        width: 65%;
+        bottom: 0;
+        right: -100%;
+    }
+
+    .hide {
+    }
+
+    .show {
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.store-info .closebtn {
+    font-weight: bold;
+    text-decoration: none;
+    color: green;
+    width: 100%;
+    display: block;
+    padding: 0.2em 0.5em;
+    font-size: 2em;
+    position: fixed;
+    z-index: 105;
+}
+
+.closebtn img {
+    height: 1.2em;
+}
+
+.fixed-top {
+    position: sticky;
+    left: 0px;
+    top: 0px;
+}

@@ -1,0 +1,20 @@
+.StoreProducts .noUi-origin-custom {
+    left: 0%;
+}
+.StoreProducts .noUi-origin-custom-2 {
+    left: 71.4286%;
+}
+.StoreProducts .noUi-handle-lower-custom {
+    z-index: 5;
+}
+.StoreProducts .noUi-handle-upper-custom {
+    z-index: 4;
+}
+.StoreProducts .noUi-connect-custom {
+    left: 0%;
+    right: 28.5714%;
+}
+
+.StoreProducts .text-uppercase {
+    margin-right: 10px;
+}

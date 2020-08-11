@@ -1,0 +1,38 @@
+.phone-activate .form-group-buttons-sms-phone, 
+.phone-activate .phone-activate-footer {
+    text-align: right;
+}
+
+.phone-activate .show {
+    display: block;
+}
+
+.phone-activate .hide {
+    display: none;
+}
+
+.phone-activate .form-input-activate-code input {
+    width: 80%;
+    float: left;
+}
+
+.phone-activate .form-input-activate-code i {
+    color: #999;
+    font-size: 1.6em;
+    padding: 10px 12px;
+    margin-left: 0.5em;
+}
+
+.phone-activate .form-input-activate-code i:hover {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.phone-activate .form-btn-title {
+    margin-left: 5px;
+}
+
+.phone-activate .input-bg-grey {
+    background-color: #f1f1f1;
+}

@@ -1,0 +1,95 @@
+.StoreHeader .header-top-dropdown-toggle {
+    border: none;
+    text-transform: uppercase;
+    color: #30323A;
+}
+
+.StoreHeader .header-top-dropdown span:hover {
+    color: #F8694A;
+}
+
+.StoreHeader .header-top-dropdown li{
+    width: 100%;
+}
+
+.StoreHeader .header-top-dropdown span{
+    cursor: pointer;
+    text-transform: uppercase;
+    display: block;
+    padding: 5px 0;
+}
+
+.StoreHeader .header-top-dropdown span i{
+    margin-right: 10px;
+    color: #F8694A;
+}
+
+.StoreHeader .store-header-logo {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+.StoreHeader .header-top-links {
+    margin-bottom: auto;
+}
+
+.StoreHeader .header-btns-custom {
+    margin-bottom: 0;
+}
+
+.StoreHeader .navigation {
+    clear: both;
+}
+
+.StoreHeader .dropdown-fa-angle-right {
+    float: right;
+}
+
+.StoreHeader #breadcrumb {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.StoreHeader .breadcrumb-header {
+    margin-left: 0.5em;
+}
+
+.StoreHeader .breadcrumb-header a {
+    margin-left: 0.5em;
+}
+
+.StoreHeader .category-list span {
+    display: block;
+    padding: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.StoreHeader .category-list li {
+    width: 100%;
+}
+
+.StoreHeader .category-list span:hover {
+    color: #F8694A;
+}
+
+.StoreHeader .mega-dropdown span,
+.StoreHeader .menu-nav-about-us span {
+    display: block;
+    padding: 15px;
+    color: #FFF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.StoreHeader .dropdown-toggle strong:hover {
+    color: #F8694A;
+}
+
+.StoreHeader .shopping-cart-btns{
+    font-size: 0.8em;
+}
+
+.search-categories-custom {
+    height: 100%;
+}

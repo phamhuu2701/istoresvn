@@ -1,0 +1,139 @@
+.table-flush-custom .is-active-true {
+    color: rgb(36, 233, 36);
+    font-size: 0.9em;
+}
+
+.table-flush-custom .is-active-false {
+    color: #f74b4b;
+    font-size: 0.9em;
+}
+
+.container-button-add-store {
+    margin: 1em auto;
+    text-align: right;
+}
+
+.container-button-add-store button {
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(226, 226, 226);
+}
+
+.store-template-select,
+.store-info-input {
+    margin: 2em auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px rgb(238, 238, 238);
+}
+
+.store-template-select-item {
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 2px 2px 5px grey;
+}
+
+.store-template-select-item:hover {
+    border: 2px solid #f1f1f1;
+    box-shadow: 5px 5px 5px grey;
+}
+
+
+.store-template-select .item-selected {
+    border: 4px solid #28d174;
+    box-shadow: 5px 5px 5px rgb(65, 223, 126);
+}
+
+.store-template-select-item img {
+    width: auto;
+    height: 200px;
+}
+
+.store-template-select-item span {
+    display: block;
+    padding: 5px 10px;
+    margin: 20px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.store-template-select-item .item-over {
+    display: block;
+    width: 84%;
+    height: 90%;
+    position: absolute;
+    top: -15px;
+    left: 20px;
+}
+
+.store-template-select-item .title-bg-success {
+    background-color: rgb(103, 202, 103);
+    color: #fff;
+}
+
+.store-template-select-item .title-bg-info {
+    background-color: rgb(121, 206, 255);
+    color: rgb(53, 53, 53);
+}
+
+.store-template-select-item .title-bg-primary {
+    background-color: rgb(16, 84, 233);
+    color: #fff;
+}
+
+.store-template-select-item .title-bg-warning {
+    background-color: rgb(233, 121, 16);
+    color: rgb(253, 253, 253);
+}
+
+.store-template-select h3{
+    margin-bottom: 2em;
+    color: blue;
+}
+
+.store-info-input h3 {
+    color: rgb(223, 9, 9);
+}
+
+.store-template-select .checkbox-has-website {
+    margin-left: 2em;
+}
+
+.store-template-select .checkbox-has-website:hover {
+    cursor: pointer;
+}
+
+.stores-manage .show {
+    display: block;
+}
+
+.stores-manage .hide {
+    display: none;
+}
+
+.stores-manage .error-message {
+    color: rgb(236, 105, 105);
+    font-size: 0.8em;
+    margin-left: 5px;
+    display: none;
+}
+
+.stores-manage .error-message2 {
+    color: rgb(236, 105, 105);
+    margin: 5px;
+    display: none;
+}
+
+.stores-manage .show {
+    display: block;
+}
+
+.product-title {
+    max-width: 200px;
+    overflow: hidden;
+}

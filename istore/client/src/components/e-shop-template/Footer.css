@@ -1,0 +1,31 @@
+.StoreFooter .store-footer {
+    clear: both;
+}
+
+.StoreFooter .footer-store-info i {
+    min-width: 1em;
+}
+
+.StoreFooter .footer-store-info span {
+    margin-left: 1em;
+}
+
+.StoreFooter .footer-store-info span:hover {
+    color: #F8694A;
+}
+
+.StoreFooter .footer-store-info .footer-store-info-email {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+.StoreFooter .footer-logo {
+    display: block;
+    min-height: 70px;
+}
+
+.StoreFooter .footer-header {
+    margin-bottom: 0;
+    padding-left: 0;
+}

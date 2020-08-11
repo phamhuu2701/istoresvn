@@ -1,0 +1,153 @@
+.app {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.app-body-left {
+    width: 40%;
+    overflow: auto;
+    /* height: 100%; */
+    /* overflow-y: auto; */
+    position: relative;
+    transition: 0.3s;
+    background-color: #ffffff;
+}
+.app-body-left.small {
+    width: 30%;
+}
+.app-body-left.big {
+    width: 60%;
+}
+.app-body-left.hidden {
+    width: 0%;
+}
+
+.app-body-left .footer .footer-body {
+    display: none;
+}
+
+img.zoom-icon {
+    position: absolute;
+    left: 40.6% !important;
+    top: 60px !important;
+    height: 40px !important;
+    z-index: 99;
+    transition: 0.3s;
+}
+img.zoom-icon:hover {
+    height: 2.8em !important;
+}
+img.zoom-icon.left {
+    left: 30.2% !important;
+}
+img.zoom-icon.right {
+    left: 60.6% !important;
+}
+
+@media only screen and (max-width: 768px) {
+    img.zoom-icon {
+        display: none;
+    }
+}
+
+.app-body-right {
+    width: 60%;
+    transition: 0.3s;
+}
+.app-body-right.small {
+    width: 40%;
+}
+.app-body-right.big {
+    width: 70%;
+}
+.app-body-right.fullScreen {
+    width: 100%;
+}
+
+.app > .footer {
+    display: none;
+    background-color: #ffffff;
+}
+
+.dropdown-user {
+    position: absolute;
+    z-index: 121;
+    top: 10px;
+    right: 60px;
+}
+
+.app:hover {
+    cursor: pointer;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 6px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-image: -webkit-linear-gradient(330deg, #d4fc79 0%, #0fc715 100%);
+    background-image: linear-gradient(120deg, #d4fc79 0%, #0fc715 100%);
+    border-radius: 6px;
+}
+
+@media only screen and (max-width: 768px) {
+    .app {
+        display: block;
+    }
+
+    .app-body-left {
+        width: 100%;
+    }
+
+    .app-body-left .header {
+        position: fixed;
+        z-index: 103;
+        width: 100%;
+    }
+
+    .app-body-left .field {
+        margin-top: 2.8em;
+        display: block;
+    }
+
+    .app-body-left .footer {
+        display: none;
+    }
+
+    .app-body-right {
+        width: 100%;
+        height: 30em;
+    }
+
+    .app  .footer {
+        display: block;
+    }
+
+    .dropdown-user {
+        position: fixed;
+        top: 3.2em;
+        right: 1em;
+    }
+    .app-body-left.small {
+        width: 100%;
+    }
+    .app-body-left.big {
+        width: 100%;
+    }
+    .app-body-right.small {
+        width: 100%;
+    }
+    .app-body-right.big {
+        width: 100%;
+    }
+}

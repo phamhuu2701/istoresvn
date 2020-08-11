@@ -1,0 +1,23 @@
+.Home .banner-custom {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.Home .banner-2-custom {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.Home .banner-2-custom img{
+    height: 100%;
+    width: auto;
+}
+
+.Home .section-title-custom {
+    margin-top: 2em;
+}
+
+.Home .banner-1-collection {
+    height: 200px;
+    overflow: hidden;
+}

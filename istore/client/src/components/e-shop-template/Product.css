@@ -1,0 +1,11 @@
+.product-price {
+    font-size: 1.3em;
+}
+.product-old-price {
+    font-size: 1em;
+    margin-left: 5px;
+}
+
+.product-rating {
+    margin-top: 0;
+}

@@ -1,0 +1,7 @@
+.AdminManageEmployees .hide {
+    display: none;
+}
+
+.AdminManageEmployees .open {
+    display: block;
+}

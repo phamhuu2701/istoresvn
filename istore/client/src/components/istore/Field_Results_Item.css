@@ -1,0 +1,147 @@
+.field-results-item {
+    margin: 1em 0;
+    height: 120px;
+}
+
+.field-results-item-content {
+    height: 120px;
+    padding-right: 10px;
+}
+
+.field-results-item-content:hover {
+    background-color: #cbffd8;
+}
+
+.field-results-item-hr {
+    margin: 10px 0 0;
+}
+
+.field-results-item:hover {
+    cursor: pointer;
+}
+
+.field-results-item-img {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.field-results-item-img > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.field-results-item-desc {
+    padding-left: 130px;
+    padding-right: 0;
+}
+
+.field-results-item-producer-code {
+    margin-top: -5px;
+    margin-bottom: -2px;
+}
+
+.field-results-item-producer-code {
+    font-size: 0.8em;
+}
+
+.field-results-item-desc-title {
+    color: #b40e0e;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-overflow: clip;
+    height: 1.6em;
+}
+
+.field-results-item-desc-area-price {
+    
+}
+
+.field-results-item-desc-price {
+    border: 1px solid #4caf50;
+    padding: 0.2em 1em;
+    border-radius: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.field-results-item-desc-time-up {
+    color: #999;
+    float: right;
+    font-size: 0.8em;
+}
+
+.field-results-item-desc-sub-desc {
+    color: #333;
+    margin-bottom: 3px;
+    overflow: hidden;
+    text-overflow: clip;
+    height: 1.5em;
+}
+
+.field-results-item-desc-product-description {
+    font-size: 0.8em;
+    color: #777777;
+}
+
+.field-results-item-producer-code-content {
+    font-size: 0.9em;
+}
+
+.field-results-item-desc-rate-contact {
+    margin-top: -8px;
+}
+
+.field-results-item-desc-rate > img {
+    height: 0.9em;
+}
+
+.field-results-item-desc-contact {
+    float: right;
+}
+
+.field-results-item-desc-contact a {
+    font-weight: bold;
+    color: #4caf50;
+    border: 1px solid #4caf50;
+    border-radius: 10px;
+    padding: 4px 8px;
+}
+
+.field-results-item-desc-contact img {
+    height: 0.9em;
+    padding-bottom: 0.2em;
+    margin-right: 0.3em;
+}
+
+.field-results-item-desc-contact a:hover {
+    color: #fff;
+    background-color: rgb(255, 133, 103);
+    border: 1px solid rgb(255, 133, 103);
+}
+
+.field-results-item .icons {
+    background: #ff0000;
+    color: #fff;
+    position: absolute;
+    left: -36px;
+    top: -12px;
+    padding: 20px 30px 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-shadow: 0 1px 5px #cccccc;
+    border-radius: 0;
+}

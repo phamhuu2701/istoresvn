@@ -1,0 +1,13 @@
+.phone-add .show {
+    display: block;
+}
+
+.phone-add .hide {
+    display: none;
+}
+
+.phone-add .error-message {
+    color: rgb(255, 67, 67);
+    margin: 0.2em 0.5em;
+    font-size: 0.9em;
+}

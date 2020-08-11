@@ -1,0 +1,46 @@
+.buy-more-stores .card-span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.buy-more-stores table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #555555;
+}
+
+.buy-more-stores table,
+th,
+td {
+    border: 1px solid #dddddd;
+    padding: 5px;
+}
+
+.buy-more-stores table th,
+.buy-more-stores table td {
+    width: 50%;
+}
+
+.buy-more-stores .message {
+    font-size: 0.8em;
+    padding: 0.5em 1em;
+}
+
+.buy-more-stores .ok {
+    color: rgb(107, 226, 107);
+}
+
+.buy-more-stores .error {
+    color: rgb(255, 119, 119);
+}
+
+.buy-more-stores .card-custom {
+    width: 100%;
+    border: 1px solid #dddddd;
+    padding: 10px;
+}
+
+.buy-more-stores .card-custom .card-header h3,
+.buy-more-stores .card-custom .card-header table {
+    color: #777777 !important;
+}
