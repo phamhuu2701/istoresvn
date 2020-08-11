@@ -10,7 +10,7 @@ NHÓM SINH VIÊN THỰC HIỆN:
 Link [Google Drive](https://drive.google.com/drive/folders/1aGBOPUXyolCYEHEFTb9HGi3tV12fknw9?usp=sharing) đề tài.
 
 # 
-Link [Ứng dụng](https://istores.herokuapp.com) đã deploy lên host.
+Link [Ứng dụng](https://istoresvn.herokuapp.com/) đã deploy lên host.
 
 #
 HCMUTE - 09/2019
